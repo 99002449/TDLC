@@ -1,0 +1,104 @@
+I. Code Quality
+	1.SCA
+		- Code Style (Syntax,Unused variable,Naming Conventions,Spaces)
+	2. DCA
+		- Memory Leak
+		
+II. Testing
+		AT               +       IT      +       UT
+	   (Standards/Quality
+	    gets cheched)
+	But ideally it has to be done in all different testing phase
+
+I + II = Quality Assurance and Testing
+
+Codecoverage comes under compliances
+_________________________________________________________________________________________________________________________________________________
+TDLC
+		Business Development plan
+			   Architect		Testing team			=====>> SDLC
+				Imp Team	
+				
+				
+		- In TDLC
+			Q&A in Requirements stage will define Test plans (AT,IT and UT)	
+		- TDLC is a part of SDLC
+		
+		In QMS:
+		Sales Team looks	Stake Holders				core team
+		Opportunities     --->     Shortlist  --->  Bid Win  --->  Project Kicoff
+_________________________________________________________________________________________________________________________________________________
+TDD
+
+Test-driven development (TDD) is an evolutionary approach to development which combines test-first development where you write a test before you write just enough production code to fulfill that test and refactoring.
+
+Link: http://agiledata.org/essays/tdd.html 
+      https://www.simform.com/what-is-tdd/
+      
+      
+_________________________________________________________________________________________________________________________________________________
+Task 1: Go through the content SDLC(Slide Deck)
+Task 2: Team Activity 
+	 - TDLC 4W & 1H (What, Why ,Where, When & How)
+	 - TDD  4W & 1H (What, Why ,Where, When & How)
+	 - Application on Miniproject -> TDD & TDLC
+
+
+
+Verification - Building system functional(Verify the functionality of the system) 				
+Validation - Building system functional as per requirements(Verfying the fucntionality againts the requirements)	
+
+Eg: Build a phone to make call and foldable
+	 Phone making call --> Verification (checked) but validation (failed)
+	 
+	 
+________________________________________________________________________________________________________________________________________________
+
+Error : System is not behaving as per expectations
+Failure : If error/bug is not managable 
+Defect : If error/bug is managable
+Bug: As long as error is identified/tracked
+Debug: The process of fixing the bug 
+Refactor: Changing the internal structure without modifing the outside structure of system.
+RCA : Primiary cause for the defect and patching it up permenantly.
+Agility: To make quick decisions in short period of time.
+Scribe: Is the Keeper of the documentation
+Test Harness: It is a collection of stubs, drivers and other supporting tools required to automate test execution
+Test Stub:
+__________________________________________________________________________________________________________________________________________________
+
+Debugging
+	level 1: using print statements
+	level 2: using break points
+		  Step in..., Step out...
+		  and use symbol viewer (similar to writing print statements)
+		  
+		  Fishbone technique - ishikawa
+		  
+	
+_________________________________________________________________________________________________________________________________________________
+
+Tools to be added in IDE:
+	Debugging
+	Symbol viewer - variable to memory  -> SVG viewer for VSCode or
+	Auto complete/fill
+	Code quality
+	Git
+	GDB
+Static analysis tools : Parasoft , LDRA
+Automated test coverage tool: MC/DC (White Box)	
+Auto Documentation
+	Deoxygen
+
+
+
+
+
+
+
+
+
+
+
+
+
