@@ -1,0 +1,6 @@
+	TDD
+Break down into chunks
+Test the chunks
+Build the code for chunks
+Refactor it
+Repeat it
